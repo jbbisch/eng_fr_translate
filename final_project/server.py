@@ -20,6 +20,5 @@ def french_to_english(french_text):
 @app.route("/")
 def renderIndexPage():
     # Write the code to render template
-
     if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
